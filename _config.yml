@@ -4,7 +4,10 @@ author: Joshua Marple
 
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: riggraz/no-style-please
+
+plugins:
+  - jekyll-remote-theme
 
 # Permalink structure
 permalink: /:year/:month/:day/:title/
