@@ -2,6 +2,9 @@ title: Joshua Marple
 description: A personal blog about software development
 author: Joshua Marple
 
+theme_config:
+  back_home_text: "← back"
+
 # Build settings
 markdown: kramdown
 kramdown:

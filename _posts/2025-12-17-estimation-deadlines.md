@@ -96,7 +96,7 @@ Soften the blow by doing two things.
 
    It can be painful to push back the deadline. Nothing looks worse than going "it's just one more week guys I PROMISE THIS TIME". 
 
-   Instead, cut your losses and commit to actually pushing it out. Don't give yourself zero leeway if another thing comes up again. Give yourself at least the same amount of leeway you had at the project start (and consider giving it more!). 
+   Instead, cut your losses and commit to actually pushing it out. You need room to pivot in case another problem comes up. Give yourself at least the same amount of leeway you had at the project start (and consider giving it more!). 
 
    If your stakeholders balk at this, talk with them. Just explain that the planning process isn't perfect, and help build back that trust with them through frequent comms.
 
