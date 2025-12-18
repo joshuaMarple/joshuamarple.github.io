@@ -4,6 +4,8 @@ author: Joshua Marple
 
 # Build settings
 markdown: kramdown
+kramdown:
+  math_engine: null
 sass:
   sass_dir: _sass
 

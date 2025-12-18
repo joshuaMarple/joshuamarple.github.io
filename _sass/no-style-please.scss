@@ -96,3 +96,11 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+.footnotes::before {
+  content: "Footnotes";
+  display: block;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
