@@ -1,0 +1,16 @@
+title: Joshua Marple
+description: A personal blog about software development
+author: Joshua Marple
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Permalink structure
+permalink: /:year/:month/:day/:title/
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
