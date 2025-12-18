@@ -4,10 +4,11 @@ author: Joshua Marple
 
 # Build settings
 markdown: kramdown
-remote_theme: riggraz/no-style-please
+sass:
+  sass_dir: _sass
 
 plugins:
-  - jekyll-remote-theme
+  - jekyll-seo-tag
 
 # Permalink structure
 permalink: /:year/:month/:day/:title/
