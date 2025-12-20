@@ -55,6 +55,30 @@ li { margin: 0.4rem 0; }
   padding: 4rem 2rem;
 }
 
+.site-header {
+  padding-top: 2rem;
+
+  .w {
+    padding: 0 2rem;
+  }
+
+  .logo-link {
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+  }
+
+  .site-logo {
+    height: 40px;
+    width: auto;
+    margin: 0;
+  }
+}
+
+.page-content .w {
+  padding-top: 2rem;
+}
+
 hr {
   text-align: center;
   border: 0;

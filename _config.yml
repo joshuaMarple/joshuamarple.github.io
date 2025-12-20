@@ -1,6 +1,7 @@
 title: Joshua Marple
 description: A personal blog about software development
 author: Joshua Marple
+favicon: /assets/logo/favicon-192x192.png
 
 theme_config:
   back_home_text: "← back"
