@@ -16,6 +16,7 @@ sass:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-feed
 
 # Permalink structure
 permalink: /:year/:month/:day/:title/
