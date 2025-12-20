@@ -1,0 +1,21 @@
+---
+layout: default
+title: Subscribe
+---
+
+<div class="subscribe-page">
+  <h1>Subscribe</h1>
+  <p>Get notified when I publish new posts. No spam, unsubscribe anytime.</p>
+
+  <form
+    action="https://buttondown.com/api/emails/embed-subscribe/jmarple"
+    method="post"
+    class="subscribe-form subscribe-form--page"
+  >
+    <input type="email" name="email" placeholder="you@example.com" required />
+    <input type="hidden" value="1" name="embed" />
+    <button type="submit">Subscribe</button>
+  </form>
+
+  <p class="subscribe-alt">Prefer RSS? <a href="{{ '/feed.xml' | absolute_url }}">Grab the feed</a></p>
+</div>

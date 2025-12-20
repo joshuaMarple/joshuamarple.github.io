@@ -160,6 +160,10 @@ img {
   text-align: center;
 }
 
+.footer-row {
+  margin: 0.5rem 0;
+}
+
 .footer-divider {
   color: #999;
 }
@@ -245,4 +249,80 @@ img {
 
 .category-filter a:hover {
   color: #2563eb;
+}
+
+// Footer labels
+.footer-label {
+  font-size: 0.75rem;
+  color: #666;
+  margin-right: 0.5rem;
+}
+
+.footer-group-sep {
+  margin: 0 1rem;
+  color: #999;
+}
+
+// Subscribe form
+.subscribe-cta {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #ccc;
+}
+
+.subscribe-text {
+  margin-bottom: 1rem;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+
+  input[type="email"] {
+    flex: 1;
+    min-width: 200px;
+    padding: 0.5rem;
+    border: 1px solid black;
+    font-family: monospace;
+    font-size: 1rem;
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    background: black;
+    color: white;
+    border: 1px solid black;
+    font-family: monospace;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+
+    &:hover {
+      background: #333;
+    }
+  }
+}
+
+.subscribe-alt {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: #666;
+
+  a {
+    color: inherit;
+  }
+}
+
+// Subscribe page
+.subscribe-page {
+  max-width: 400px;
+
+  h1 {
+    margin-bottom: 0.5rem;
+  }
+
+  .subscribe-form--page {
+    margin: 2rem 0 1rem;
+  }
 }

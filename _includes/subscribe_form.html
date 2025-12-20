@@ -1,0 +1,13 @@
+<div class="subscribe-cta">
+  <p class="subscribe-text">Enjoyed this post? Get new ones by email or RSS.</p>
+  <form
+    action="https://buttondown.com/api/emails/embed-subscribe/jmarple"
+    method="post"
+    class="subscribe-form"
+  >
+    <input type="email" name="email" placeholder="you@example.com" required />
+    <input type="hidden" value="1" name="embed" />
+    <button type="submit">Subscribe</button>
+  </form>
+  <p class="subscribe-alt">or <a href="{{ '/feed.xml' | absolute_url }}">follow via RSS</a></p>
+</div>

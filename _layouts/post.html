@@ -12,4 +12,17 @@ layout: default
   <a href="/{{ page.category }}" class="post-category post-category--{{ page.category }}">{{ page.category }}</a>
 
   {{ content }}
+
+  {%- include subscribe_form.html -%}
 </article>
+
+<script>
+  // Move subscribe CTA above footnotes if they exist
+  (function() {
+    var footnotes = document.querySelector('.footnotes');
+    var subscribe = document.querySelector('.subscribe-cta');
+    if (footnotes && subscribe) {
+      footnotes.parentNode.insertBefore(subscribe, footnotes);
+    }
+  })();
+</script>
