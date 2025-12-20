@@ -5,10 +5,15 @@ layout: default
 
 {{ content }}
 
+<p class="category-filter">
+  <a href="/" class="active">All</a> · <a href="/tech">Tech</a> · <a href="/fitness">Fitness</a>
+</p>
+
 <ul>
   {%- for post in site.posts -%}
     <li>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <a href="/{{ post.category }}" class="post-category post-category--{{ post.category }}">{{ post.category }}</a>
       <small>({{ post.date | date: "%B %d, %Y" }})</small>
     </li>
   {%- endfor -%}

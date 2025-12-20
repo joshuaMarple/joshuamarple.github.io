@@ -2,6 +2,7 @@
 layout: post
 title: "Deadlines aren't for devs; you need them anyways"
 date: 2025-12-17
+category: tech
 ---
 
 

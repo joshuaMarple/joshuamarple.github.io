@@ -186,10 +186,63 @@ img {
 
 .site-footer a span,
 .about-connect a span {
-  border-bottom: 2px solid #2563eb;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.15s ease;
+}
+
+.site-footer a:hover span,
+.about-connect a:hover span {
+  border-color: #2563eb;
 }
 
 .site-footer a:hover,
 .about-connect a:hover {
+  color: #2563eb;
+}
+
+.post-category {
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.4rem;
+  border: 1px solid;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  text-decoration: none;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.post-category--tech {
+  color: #2563eb;
+  border-color: #2563eb;
+
+  &:hover {
+    background-color: #2563eb;
+    color: white;
+  }
+}
+
+.post-category--fitness {
+  color: #16a34a;
+  border-color: #16a34a;
+
+  &:hover {
+    background-color: #16a34a;
+    color: white;
+  }
+}
+
+.category-filter {
+  margin-bottom: 1.5rem;
+}
+
+.category-filter a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.category-filter a.active {
+  font-weight: bold;
+}
+
+.category-filter a:hover {
   color: #2563eb;
 }
