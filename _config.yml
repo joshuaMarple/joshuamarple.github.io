@@ -3,7 +3,7 @@ google_analytics: G-1L8TRLQGW1
 title: Joshua Marple
 description: A personal blog about software development
 author: Joshua Marple
-favicon: /assets/logo/favicon-192x192.png
+favicon: /assets/logo/favicon.png
 
 theme_config:
   back_home_text: "← back"

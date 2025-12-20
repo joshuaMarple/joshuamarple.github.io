@@ -89,9 +89,15 @@ li { margin: 0.4rem 0; }
   }
 
   .site-logo {
-    height: 40px;
-    width: auto;
-    margin: 0;
+    font-family: 'Sometype Mono', monospace;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FAFAFA;
+    background: #5C6BC0;
+    padding: 14px 32px;
+    border-radius: 50px;
+    letter-spacing: -0.5px;
+    white-space: nowrap;
   }
 }
 
