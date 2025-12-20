@@ -39,6 +39,12 @@ body {
 
 .post-meta { text-align: right; }
 
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 h2, h3, h4, h5, h6 { margin-top: 3rem; }
 
 hr { margin: 2rem 0; }
