@@ -10,21 +10,11 @@
   margin-bottom: 2rem;
 }
 
-.photo-placeholder {
+.about-photo {
   width: 140px;
   height: 140px;
-  border: 2px solid #2563eb;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.875rem;
-  color: #666;
-}
-
-.photo-placeholder img {
-  width: 100%;
-  height: 100%;
   object-fit: cover;
+  border-radius: 8px;
 }
 
 .about-intro h1 {
@@ -47,6 +37,10 @@
   font-weight: bold;
 }
 
+.about-connect {
+  text-align: center;
+}
+
 .about-currently ul {
   list-style: none;
   padding: 0;
@@ -56,17 +50,40 @@
   margin: 0.5rem 0;
 }
 
+.about-interests-content {
+  display: grid;
+  grid-template-columns: 1fr 140px;
+  gap: 2rem;
+  align-items: start;
+}
+
+.about-interests-text p {
+  margin: 0;
+}
+
+.about-interests-photo {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
 @media (max-width: 480px) {
   .about-hero {
     grid-template-columns: 1fr;
     text-align: center;
   }
 
-  .photo-placeholder {
+  .about-photo {
     margin: 0 auto;
   }
 
-  .about-connect {
+  .about-interests-content {
+    grid-template-columns: 1fr;
     text-align: center;
+  }
+
+  .about-interests-photo {
+    margin: 1rem auto 0;
   }
 }
