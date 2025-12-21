@@ -5,7 +5,6 @@ date: 2025-12-17
 category: tech
 ---
 
-
 ## The typical path
 
 Software devs are often asked to create estimates for the purposes of creating a deadline.[^1] These estimates are plugged together by a project lead who spits out a deadline the devs are held to without mercy until either a) the deadline is missed or b) the devs are burnt out and leave the team. 
