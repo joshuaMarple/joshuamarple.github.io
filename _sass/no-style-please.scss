@@ -12,12 +12,11 @@
   }
 }
 
-body[a="dark"] { @include dark-appearance; }
-
-
-@media (prefers-color-scheme: dark) {
-  body[a="auto"] { @include dark-appearance; }
-}
+// Dark mode disabled - uncomment to re-enable
+// body[a="dark"] { @include dark-appearance; }
+// @media (prefers-color-scheme: dark) {
+//   body[a="auto"] { @include dark-appearance; }
+// }
 // -------------------------------------------- //
 
 // bg color is also needed in html in order to
