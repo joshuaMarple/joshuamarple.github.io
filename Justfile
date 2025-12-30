@@ -2,6 +2,7 @@
 install:
     bundle install
     brew install tectonic
+    npm install -g markdownlint-cli2
 
 # Serve locally with live reload
 serve:
@@ -25,3 +26,15 @@ resume:
 # Clean resume build artifacts
 resume-clean:
     rm -f resume/*.aux resume/*.log resume/*.out resume/*.pdf
+
+# Lint a single markdown file
+lint file:
+    markdownlint-cli2 "{{file}}"
+
+# Lint all posts
+lint-posts:
+    markdownlint-cli2 "_posts/**/*.md"
+
+# Check built site for broken links and images (run after build)
+lint-html:
+    bundle exec htmlproofer _site --disable-external --ignore-urls "/^#/"
