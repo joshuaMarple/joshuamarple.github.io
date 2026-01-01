@@ -56,7 +56,7 @@ Similar to the story for ideal carbohydrate ratios, unfortunately most gels and 
 
 For reference, Gu recommends consuming [approximately 2 gels per hour](https://guenergy.com/pages/gu-energy-gel-101?srsltid=AfmBOoqGrgHhvBsx_-pUfNoJ38YpcKVBwX0_pVHJYNP7Mdzjwq4ZabLR). Each Gu gel contains 60mg of sodium, giving us a whopping... 120mg of sodium, less than half of what the minimum recommendation is from ACSM.
 
-Many others have noted the ability of a higher sodium limit on performance impact. LMNT has an excellent article on the topic in more detail [here](https://science.drinklmnt.com/electrolytes/is-sodium-good-or-bad/).
+Many others have noted the ability of a higher sodium limit on performance impact. LMNT has an [excellent article on sodium and performance](https://science.drinklmnt.com/electrolytes/is-sodium-good-or-bad/).
 
 ## Benefits
 ### Cost Savings
@@ -114,4 +114,3 @@ Nope. Its fine without it, but personally I felt it was too strange to drink str
 #### Does any flavor of Kool Aid work?
 
 Yep, of course! While I prefer black cherry if I can get it, others have told me that it tastes like "cough syrup". I have also used fruit punch and lemonade flavors as well. Whichever flavor you like best is totally fine.
-
